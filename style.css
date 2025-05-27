@@ -1,0 +1,87 @@
+/* Futura PT - Regular */
+@font-face {
+    font-family: 'Futura PT';
+    src: url('./fonts/Futura PT/Futura\ PT\ Medium.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Futura PT - Bold */
+@font-face {
+    font-family: 'Futura PT';
+    src: url('./fonts/Futura PT/Futura\ PT\ Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+/* Nimbus Sans - Regular */
+@font-face {
+    font-family: 'Nimbus Sans';
+    src: url('./fonts/Nimbus Sans/Nimbus Sans Black/Nimbus\ Sans\ Extd\ Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Nimbus Sans - Bold */
+@font-face {
+    font-family: 'Nimbus Sans';
+    src: url('./fonts/Nimbus Sans/Nimbus Sans Black/Nimbus\ Sans\ Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+body {
+    font-family: 'Futura PT', Arial, sans-serif;
+    font-size: 12px;
+   
+}
+
+.name-title {
+    font-family: 'Futura PT', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.name-title span {
+    font-size: 16px;
+}
+
+.contact-info {
+    font-family: 'Nimbus Sans', Arial, sans-serif;
+    font-weight: normal;
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+table {
+    width: 100%; /* Make the table width flexible */
+    max-width: 320px; /* Ensures it doesn't get too big */
+}
+
+/* Adjust logo size for signature */
+.logo {
+    width: 120px; /* Reduced size */
+    height: auto; /* Maintain aspect ratio */
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #0078D4;
+    font-weight: normal;
+}
+
+.linkedin-icon {
+    width: 30px;
+    margin-top: 10px;
+}
+
+.contact-info a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+
+
