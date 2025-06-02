@@ -31,13 +31,12 @@
 }
 
 body {
-    font-family: 'Futura PT', Arial, sans-serif;
+    font-family: 'Aptos', sans-serif;
     font-size: 12px;
-   
 }
 
 .name-title {
-    font-family: 'Futura PT', Arial, sans-serif;
+    font-family: 'Aptos', sans-serif;
     font-weight: bold;
     font-size: 16px;
 }
@@ -46,10 +45,14 @@ body {
     font-size: 16px;
 }
 
+.span1{
+    font-weight:initial;
+}
+
 .contact-info {
-    font-family: 'Nimbus Sans', Arial, sans-serif;
+    font-family: 'Aptos', sans-serif;
     font-weight: normal;
-    font-size: 12px;
+    font-size: 9px;
     margin-top: 10px;
 }
 
@@ -63,14 +66,15 @@ table {
     width: 120px; /* Reduced size */
     height: auto; /* Maintain aspect ratio */
     display: block;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-top: 20px;
+    margin-bottom: 17px;
 }
 
 a {
-    text-decoration: none;
+    text-decoration: none !important;
     color: #0078D4;
     font-weight: normal;
+    font-size: 9px !important;
 }
 
 .linkedin-icon {
@@ -79,8 +83,9 @@ a {
 }
 
 .contact-info a {
-    text-decoration: none;
+    text-decoration: none !important;
     color: rgb(0, 0, 0);
+    font-size: 9px !important;
 }
 
 
