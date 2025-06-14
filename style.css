@@ -52,8 +52,29 @@ body {
 .contact-info {
     font-family: 'Aptos', sans-serif;
     font-weight: normal;
-    font-size: 9px;
+    font-size: 9px !important;
     margin-top: 10px;
+}
+
+.contact-info span {
+    font-size: 9px !important;
+}
+
+.contact-info a {
+    text-decoration: none !important;
+    color: rgb(0, 0, 0);
+    font-size: 9px !important;
+    font-family: 'Aptos', sans-serif !important;
+}
+
+/* Add specific styles for Outlook */
+@media screen {
+    .contact-info, 
+    .contact-info span, 
+    .contact-info a {
+        font-size: 9px !important;
+        mso-line-height-rule: exactly;
+    }
 }
 
 table {
@@ -80,12 +101,6 @@ a {
 .linkedin-icon {
     width: 30px;
     margin-top: 10px;
-}
-
-.contact-info a {
-    text-decoration: none !important;
-    color: rgb(0, 0, 0);
-    font-size: 9px !important;
 }
 
 
